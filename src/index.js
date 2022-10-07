@@ -1,3 +1,4 @@
-const ajs = require('@it-lilya/ajs');
+import { info } from '@it-lilya/ajs';
 
-console.log(ajs.info());
+// eslint-disable-next-line no-console
+console.log(info());
