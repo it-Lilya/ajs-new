@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-unresolved
-import ajs from '@it-lilya/ajs';
+import { info } from '@it-lilya/ajs';
 
 // eslint-disable-next-line no-console
-console.log(ajs.info());
+console.log((0, info)());
